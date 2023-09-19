@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "OBS_Mobil",
+    "slug": "OBS_Mobil",
+    "version": "1.0.0",
+    "platforms": ["android", "ios"],
+    "android": {
+      "package": "com.OBS_Mobil.android"
+    },
+    "ios": {
+      "bundleIdentifier": "com.myapp.ios",
+      "buildNumber": "1.0.0"
+    },
+    "description": "My awesome Expo app",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "enabled": true,
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "extra": {
+      "API_BASE_URL": "https://my-api.com",
+      "SOME_OTHER_CONFIG": true
+    }
+  }
+}
